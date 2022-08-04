@@ -34,33 +34,28 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href="https://mstoutjesdyk.github.io/probable-eureka/" class="nav-link">AUC University</a>
-                            </li>
-                            <li class="navitem">
-                                <a href=".." class="nav-link">UltraScan III</a>
+                                <a href=".." class="nav-link">Home</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">General <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../us-overview/" class="dropdown-item">Overview</a>
-</li>
-                                    
-<li>
-    <a href="../us-dialogs/" class="dropdown-item">Common Dialogs</a>
-</li>
-                                    
-<li>
     <a href="../us-faq.md" class="dropdown-item">FAQs</a>
 </li>
+                                    
+<li>
+    <a href="../ultrascan/" class="dropdown-item">Software Info</a>
+</li>
+                                    
+<li>
+    <a href="https://uslims.aucsolutions.com/lims_servers.php" class="dropdown-item">LIMS Database</a>
+</li>
+                                    
+<li>
+    <a href="https://www.ultrascan3.aucsolutions.com/download.php" class="dropdown-item">Download</a>
+</li>
                                 </ul>
-                            </li>
-                            <li class="navitem">
-                                <a href="../gmp-overview/" class="nav-link">UltraScan GMP</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../ultrascan.md" class="nav-link">Software</a>
                             </li>
                             <li class="navitem">
                                 <a href="../us-edit/" class="nav-link">Edit</a>
@@ -196,7 +191,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Multiwavelength <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">MWL <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -283,8 +278,12 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">UltraScan GMP <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">US-GMP <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../gmp-overview/" class="dropdown-item">Overview</a>
+</li>
                                     
 <li>
     <a href="../gmp-experiment/" class="dropdown-item">Experiment</a>
@@ -310,6 +309,26 @@
     <a href="../gmp-report/" class="dropdown-item">Report</a>
 </li>
                                 </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Flowchart <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../sv-flow/" class="dropdown-item">Sedimentation Velocity</a>
+</li>
+                                    
+<li>
+    <a href="../se-flow/" class="dropdown-item">Sedimentation Equilibrium</a>
+</li>
+                                    
+<li>
+    <a href="../mwl-flow/" class="dropdown-item">Multwavelength</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="https://mstoutjesdyk.github.io/probable-eureka/" class="nav-link">AUC University</a>
                             </li>
                         </ul>
 
@@ -369,7 +388,7 @@ BD: &#x2717;</p>
 <p>Each 2DSA pass can be repeated for a specified number of refinement iterations These iterations, in turn, can be repeated for a specified number of meniscus points or Monte Carlo iterations. </p>
 <p>Each refinement iteration proceeds over a defined grid of <span class="arithmatex">\(s\)</span> and <span class="arithmatex">\(f/f_{0}\)</span> values. That grid is divided into sub-grids as defined by a number of grid refinements in each direction.</p>
 <div class="admonition danger">
-<p><img alt="" src="img/nav-us/us-velocity-2dsa.png" width="1000" /></p>
+<p><img alt="" src="../img/nav-us/us-velocity-2dsa.png" width="1000" /></p>
 </div>
 <p><span style = "font-size:16px";>CONTROLS</span></p>
 <p><u>3-D Plot</u> Open a control window for a 3-D dimensional plot of the final computed model. </p>
@@ -381,7 +400,7 @@ BD: &#x2717;</p>
 <div class="admonition danger">
 <p class="admonition-title"> </p>
 <p>The parameters of this dialog define and control an analysis run to find the set of solutes that best fits experimental data. </p>
-<p><img alt="" src="img/nav-us/us-velocity-2dsafit.png" width="1000" /></p>
+<p><img alt="" src="../img/nav-us/us-velocity-2dsafit.png" width="1000" /></p>
 <p><span style = "font-size:16px";>FITTING CONTROLS</span></p>
 <p><u>Lower/Upper Limit (s)</u> Set a lower/upper limit of sedimentation coefficient values to scan.</p>
 <p><u>Number Grid Points (s)</u> Set the total grid count of sedimentation coefficient points.</p>

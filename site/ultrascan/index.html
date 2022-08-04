@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="author" content="Marielle Stoutjesdyk">
-        <link rel="canonical" href="https://mstoutjesdyk.github.io/effective-spoon/software/">
+        <link rel="canonical" href="https://mstoutjesdyk.github.io/effective-spoon/ultrascan/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Software - Navigating UltraScan</title>
+        <title>Software Info - Navigating UltraScan</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -34,33 +34,28 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href="https://mstoutjesdyk.github.io/probable-eureka/" class="nav-link">AUC University</a>
+                                <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="navitem">
-                                <a href=".." class="nav-link">UltraScan III</a>
-                            </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">General <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../us-overview/" class="dropdown-item">Overview</a>
-</li>
-                                    
-<li>
-    <a href="../us-dialogs/" class="dropdown-item">Common Dialogs</a>
-</li>
-                                    
-<li>
     <a href="../us-faq.md" class="dropdown-item">FAQs</a>
 </li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Software Info</a>
+</li>
+                                    
+<li>
+    <a href="https://uslims.aucsolutions.com/lims_servers.php" class="dropdown-item">LIMS Database</a>
+</li>
+                                    
+<li>
+    <a href="https://www.ultrascan3.aucsolutions.com/download.php" class="dropdown-item">Download</a>
+</li>
                                 </ul>
-                            </li>
-                            <li class="navitem">
-                                <a href="../gmp-overview/" class="nav-link">UltraScan GMP</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../ultrascan.md" class="nav-link">Software</a>
                             </li>
                             <li class="navitem">
                                 <a href="../us-edit/" class="nav-link">Edit</a>
@@ -196,7 +191,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Multiwavelength <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">MWL <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -283,8 +278,12 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">UltraScan GMP <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">US-GMP <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../gmp-overview/" class="dropdown-item">Overview</a>
+</li>
                                     
 <li>
     <a href="../gmp-experiment/" class="dropdown-item">Experiment</a>
@@ -311,6 +310,26 @@
 </li>
                                 </ul>
                             </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Flowchart <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../sv-flow/" class="dropdown-item">Sedimentation Velocity</a>
+</li>
+                                    
+<li>
+    <a href="../se-flow/" class="dropdown-item">Sedimentation Equilibrium</a>
+</li>
+                                    
+<li>
+    <a href="../mwl-flow/" class="dropdown-item">Multwavelength</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="https://mstoutjesdyk.github.io/probable-eureka/" class="nav-link">AUC University</a>
+                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav ml-auto">
@@ -320,7 +339,17 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a href="https://github.com/mstoutjesdyk/effective-spoon.git/edit/master/docs/software.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../us-edit/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/mstoutjesdyk/effective-spoon.git/edit/master/docs/ultrascan.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -340,52 +369,17 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#dcdt" class="nav-link">DCDT+</a>
+            <li class="nav-item" data-level="1"><a href="#ultrascan-software" class="nav-link">UltraScan Software</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-level="2"><a href="#kdalton" class="nav-link">kDalton</a>
+            <li class="nav-item" data-level="1"><a href="#us-lims" class="nav-link">US-LIMS</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-level="2"><a href="#lamm" class="nav-link">Lamm</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#sedanal" class="nav-link">SedAnal</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#sedfit" class="nav-link">SedFit</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#sednterp" class="nav-link">SedNterp</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#sedphat" class="nav-link">SedPhat</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#svedberg" class="nav-link">Svedberg</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#ultrascan" class="nav-link">UltraScan</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#xl-graph" class="nav-link">XL Graph</a>
+            <li class="nav-item" data-level="1"><a href="#using-ultrascan-with-the-optima-auc" class="nav-link">Using UltraScan with the Optima AUC</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -394,84 +388,106 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<p><span style="font-size:24px";>AUC Software Options</span></p>
-<h2 id="dcdt"><a href="http://www.jphilo.mailway.com/dcdt+.htm"><span style="font-size:20px";><u>DCDT+</u></span></a></h2>
-<p>DCDT+ is a Windows program for analysis of sedimentation velocity (SV) data and implements fitting of the derived g(s*) distributions as a mixture containing of up to 5 discrete (non-interacting) species.</p>
-<p><u>Developer(s):</u> Walter Stafford; John Philo</p>
-<p><u>System Requirements:</u> Window XP, Vista, 7,8, or 10. Requires Microsoft .NET framework.</p>
-<p><u>Registration:</u> DCDT+ is distibuted as 'freeware' and does not require registration.</p>
-<p><u>Download:</u> <a href="http://www.jphilo.mailway.com/download.htm">link</a></p>
-<p><u>User Manual:</u> <a href="https://manualzz.com/doc/6780795/dcdt--user-manual---john-philo-s-software-home-page">pdf</a></p>
-<div class="admonition quote">
-<p>Stafford, W.F., III. 1992. Boundary analysis in sedimentation transport experiments: A procedure for obtaining sedimentation coefficient distributions using the time derivative of the concentration profile. Analytical Biochemistry 203:295-301.</p>
-<p>Philo, J.S. (2000) A method for directly fitting the time derivative of sedimentation velocity data and an alternative algorithm for calculating sedimentation coefficient distribution functions. Analytical Biochemistry, 279, 151-163.</p>
-<p>Philo, J. S. (2006). Improved methods for fitting sedimentation coefficient distributions derived by time-derivative techniques. Anal. Biochem. 354, 238-246.</p>
-<p>Philo, J. S. (2011). Limiting the sedimentation coefficient range for sedimentation velocity data analysis: Partial boundary modeling and g(s*) approaches revisited. Anal. Biochem. 412, 189-202.</p>
+<p><br>
+MS: &#10003;
+<br>
+BS: &#x2717;</p>
+<h1 id="ultrascan-software">UltraScan Software</h1>
+<div class="admonition danger">
+<p>The UltraScan-III and LIMS-III software were developed by:</p>
+<p>Emre Brookes, Weiming Cao, Bruce Dubbs, Gary Gorbet, Kip Jay, Jeremy Mann, Suresh Marru, Shabhaz Memon, Marlon Pierce, Alexey Savelyev, Raminder Singh and Dan Zollars.</p>
+<p>Project Director: Borries Demeler</p>
+<p>Other individual contributors to the UltraScan project can be found <a href="https://ultrascan.aucsolutions.com/contributors.php">here</a>.</p>
+<p>The UltraScan software is copyright protected by international laws. The copyright is jointly owned by Borries Demeler, PhD (1989-present) and The University of Texas Health Science Center at San Antonio (1997-2018), AUC Solutions (2015-present), University of Montana (2018-present) and University of Lethbridge (2018-present). All rights reserved.</p>
+<p>The entire software, including documentation, source code, LIMS and grid middleware components are protected by the GNU Lesser General Public License, version 3. </p>
+<p>For more information, please visit: <a href="http://www.ultrascan.aucsolutions.com/">http://www.ultrascan.aucsolutions.com/</a></p>
+<p><img alt="" src="img/ultrascan.png" width="800" /></p>
 </div>
-<h2 id="kdalton"><a href="http://www.jphilo.mailway.com/kdalton.htm"><span style="font-size:20px";><u>kDalton</u></span></a></h2>
-<p>The kDalton program directly fits sedimentation equilibrium (SE) scans using non-linear least-squares analysis, providing global analysis of multiple loading concentrations and/or rotor speeds (up to 18 total data sets). It can analyze ideal or non-ideal self-association (with up to 2 different oligomers), and also provides 15 assembly models for mixed associations (hetero-association).</p>
-<p><u>Developer:</u> John Philo</p>
-<p><u>System Requirements:</u> Windows XP, Vista, 7, 8, or 10.</p>
-<p><u>Download:</u> <a href="http://www.jphilo.mailway.com/download.htm">link</a></p>
-<div class="admonition quote">
-<p>Philo, J. S. (2000). Sedimentation equilibrium analysis of mixed associations using numerical constraints to impose mass or signal conservation. Methods Enzymol. 321, 100-120.</p>
-</div>
-<h2 id="lamm"><span style="font-size:20px";><u>Lamm</u></span></h2>
-<p>Discrete species: numerical lamm solution</p>
-<h2 id="sedanal"><a href="https://sedanal.org/"><span style="font-size:20px";><u>SedAnal</u></span></a></h2>
-<p>SedAnal can processs both sedimentation velocity and sedimentation equilibrium data, using the Lamm Equation Filter and Sedimentation Equilibrium Filter, resepctively. SedAnal contains several other programs, such as: <a href="/probable-eureka/software#DCDT+">DCDT</a>, Multi-Wavlength Analysis (MWL), Wide Distribution Analysis (WDA), and Biospin.</p>
-<p>Global analysis of interacting species. Molecular weight anaysis.</p>
-<p><u>Developer:</u> Walter Stafford</p>
-<p><u>System Requirements:</u></p>
-<p><u>Download:</u> <a href="https://sedanal.org/latest/">SedAnal link</a>; <a href="https://sedanal.org/sedview/">SedView link</a></p>
-<p><u>User Manual:</u> <a href="https://sedanal.org/latest/Sedanal_manual.pdf">pdf link</a></p>
-<div class="admonition quote">
-<p>Stafford, WF, (1998) "Time difference sedimentation velocity analysis of rapidly reversible interacting systems: Determination of equilibrium constants by global non-linear curve fitting procedures." Biophysical Journal,74(2),A301.</p>
-<p><u>Biospin</u></p>
-<p>Roark and Yphantis 1968</p>
-<p><u>Multi-Wavelength Analysis</u></p>
-<p>Walter et al 2015</p>
-<p><u>Wide Distribution Analysis</u></p>
-<p>Stafford, W. F. and E. H. Braswell (2004). "Sedimentation Velocity, Multi-speed Method for Analyzing Polydisperse Solutions." Biophysical Chemistry,108,273-279.</p>
-</div>
-<h2 id="sedfit"><a href="https://sedfitsedphat.github.io/"><span style="font-size:20px";><u>SedFit</u></span></a></h2>
-<p>c(s). Discret species: approximate Lamm solution. discret species: numerical lamm solution. Realtime isplay and analysis.</p>
-<p>For the analysis of sedimentation velocity, dynamic light scattering, and sedimentation equilibrium data. SEDFIT has a variety of models for the analysis with discrete species and size-distributions, including ls-g*(s), c(s), c(M), and c(s, ff0), and their specialized variants.</p>
-<p><u>Developer:</u> Peter Schuck</p>
-<p><u>System Requirements:</u> Windows NT, 95, 98, XP, 2000, Vista, 7, 8</p>
-<p><u>Download:</u> <a href="https://sedfitsedphat.github.io/download.htm">link</a> or <a href="https://sedfitsedphat.nibib.nih.gov/software/default.aspx">NIH link</a></p>
-<h2 id="sednterp"><a href="http://www.jphilo.mailway.com/sednterp.htm"><span style="font-size:20px";><u>SedNterp</u></span></a></h2>
-<p>The SEDNTERP program is a general purpose tool for the interpretation of sedimentation equilibrium, sedimentation velocity, and diffusion experiments.</p>
-<p><u>Developer:</u> John Philo</p>
-<p><u>Download:</u> <a href="http://www.jphilo.mailway.com/download.htm">link</a></p>
-<h2 id="sedphat"><a href="https://sedfitsedphat.github.io/sedphat/sedphat.htm"><span style="font-size:20px";><u>SedPhat</u></span></a></h2>
-<p>SEDPHAT provides global modeling capabilities for both sedimentation equilibrium and sedimentation velocity data, serving as a platform for the global analysis of a variety of iotherms from different biophysical disciplines.</p>
-<p><u>Developer:</u> Peter Schuck</p>
-<p><u>System Requirements:</u> Windows NT, 95, 98, 2000, XP, or later</p>
-<p><u>Download:</u> <a href="https://sedfitsedphat.github.io/sedphat/download.htm">link</a> </p>
-<h2 id="svedberg"><a href="http://www.jphilo.mailway.com/svedberg.htm"><span style="font-size:20px";><u>Svedberg</u></span></a></h2>
-<p>SVEDBERG is a Windows program for whole-boundary analysis of sedimentation velocity data. It fits directly to the raw scans (usually spanning the entire run) to derive the sedimentation coefficient and molar mass (or, if you prefer, sedimentation coefficient and diffusion coefficient) for up to 6 independent species (mixtures of up to 6 components). </p>
-<p><u>Developer:</u> John Philo</p>
-<p><u>System Requirements:</u> Windows XP, Vista, 7, 8, 10. Requires Microsoft .NET framework.</p>
-<p><u>Registration:</u> SVEDBERG is distributed as 'freeware' and does not require registration.</p>
-<p><u>Download:</u> <a href="http://www.jphilo.mailway.com/download.htm">link</a></p>
-<div class="admonition quote">
-<p>Philo, J. S. (1997). An improved function for fitting sedimentation velocity data for low-molecular-weight solutes. Biophys. J. 72, 435-444.</p>
-</div>
-<h2 id="ultrascan"><span style="font-size:20px";><u>UltraScan</u></span></h2>
-<p>Main Use: van Holde-Weischet. Discrete species: numerical lamm solution. nonlinear least squares. molecular weight moment analysis. data aquisition. realtime display and analysis. graphics. calculations. <br></p>
-<p><u>Developer:</u> Borries Demeler</p>
-<p><u>System Requirements:</u></p>
-<p><u>Registration:</u></p>
-<p><u>Download:</u> <a href="">link</a></p>
-<div class="admonition quote">
-<p>link</p>
-</div>
-<h2 id="xl-graph"><a href="http://www.jphilo.mailway.com/xlgraph.htm"><span style="font-size:20px";><u>XL Graph</u></span></a></h2>
-<p>XLGraph is a general purpose plotting tool for AUC scan data, a utility to transform the raw data plots to help visualize and interpret AUC experiments, and a utility for performing certain mathematical operations on raw AUC scans and then writing out the resultant data as new scan files.</p>
-<p><u>Developer:</u> John Philo</p>
-<p><u>System Requirements:</u> Windows XP, Vista, 7, 8, or 10.</p>
-<p><u>Download:</u> <a href="http://www.jphilo.mailway.com/download.htm">link</a></p></div>
+<p>UltraScan is a comprehensive data analysis software package for hydrodynamic data from analytical ultracentrifugation experiments. The software features an integrated data editing and analysis environment with a portable graphical user interface. UltraScan provides the highest possible resolution for sedimentation velocity experiments using high-performance computing modules for 2-dimensional spectrum analysis, genetic algorithm, and for Monte Carlo analysis. A MySQL database backend is integrated for data management, and the UltraScan LIMS system provides web-based access to the database and supercomputing functionality. Supercomputing resources are provided through a NSF Teragrid Science Gateway. Special care has been taken in the design of the software to guarantee an optimum in flexibility, user-friendliness, stability and convenience. The software is written in C++.</p>
+<p>The software features popular sedimentation velocity and equilibrium analysis methods as well as simulation modules, utilities, and editing modules with support for velocity and equilibrium experiments, single and multi-channel centerpieces, absorbance and interference optics. All analysis methods generate ASCII formatted data suitable for import into third-party plotting programs, and contains a built-in postscript printer engine to generate publication - quality graphical representations of analysis data.</p>
+<p>UltraScan is offered in two versions, UltraScan-II and UltraScan-III. The latter is a complete rewrite of the former, with many new features and a greatly improved interface. UltraScan-III was released in the summer of 2011 and will eventually replace the older version. We will maintain UltraScan-II to assure access to legacy data because UltraScan-III is not backward compatible with UltraScan-II. New users are encouraged to switch to UltraScan-III. In addition to numerous interface changes, the most important changes in UltraScan-III are listed below:</p>
+<p>UltraScan-III adheres to the <a href="/probable-eureka/openAUC">OpenAUC</a> standard.</p>
+<ul>
+<li>
+<p>Can be used simultaneously in a local disk-only mode without the requirement for network connectivity, or fully integrated with network capability, including a database and supercomputing backend</p>
+</li>
+<li>
+<p>Contains a local 2DSA that is multi-threaded to take advantage of multi-core technology</p>
+</li>
+<li>
+<p>All hydrodynamic models are represented in a single, generalized and standard structure that can be interpreted by the ASTFEM simulator and understood throughout the program.</p>
+</li>
+<li>
+<p>All experimental data are stored in a new binary format that achieves 60-80% compression from the legacy Beckman data format</p>
+</li>
+<li>
+<p>All network communications are SSL encrypted and provide data privacy and security. Data ownership in the database is on a per-user level now</p>
+</li>
+<li>
+<p>A master password mechanism facilitates switching between multiple resources.</p>
+</li>
+<li>
+<p>A new rotor stretch calibration routine assures maximum accuracy for individually calibrated rotors</p>
+</li>
+<li>
+<p>A new reporting system provides much improved control over result report formatting</p>
+</li>
+<li>
+<p>Plots can be exported not only as bitmap, postscript, or PDF but also as SVG files which can be edited later on</p>
+</li>
+<li>
+<p>Finite element analysis for all methods, as well as data management is greatly improved to reduce the workflow without compromising flexibility</p>
+</li>
+</ul>
+<p>The LIMS component of UltraScan, coupled with the high-performance computing backend dramatically improves analysis speed and throughput and allows simultaneous analysis of a virtually unlimited number of experiments. Any institution, academic or for profit can obtain free data storage and supercomputing analysis resources through an NSF TeraGrid allocation grant issued to Borries Demeler.  </p>
+<p>A quick-start manual for UltraScan can be found <a href="https://ultrascan.aucsolutions.com/quickstart.php">here</a>.</p>
+<h1 id="us-lims"><span style= "font-size:20px";>US-LIMS</span></h1>
+<p>The <a href="https://uslims.uleth.ca/uslims3_CCH/">US-LIMS website</a> offers access to the UltraScan Laboratory Information Management System (USLIMS), an XSEDE Science Gateway supported by an allocation through an XSEDE community account. </p>
+<p>This system provides web and database support for users of the UltraScan software. You can use this portal to access data associated with your sedimentation experiments, and share your data with collaborators. Authorized users can also use this site to model analytical ultracentrifugation experiments with UltraScan's high-performance analysis modules by submitting analysis jobs to computing clusters available at the University of Texas Health Science Center and XSEDE sites at the Texas Advanced Computing Center and at Indiana University. </p>
+<p>These services are made available through an NSF XSEDE community account. Funding for this facility is provided through multiple sources:</p>
+<ul>
+<li>
+<p>Department of Biochemistry, University of Texas Health Science Center at San Antonio</p>
+</li>
+<li>
+<p>User fees collected from collaborators and users of the UltraScan facility at UTHSCSA.</p>
+</li>
+<li>
+<p>San Antonio Life Science Institute Grant #10001642</p>
+</li>
+<li>
+<p>The National Science Foundation, Grants DBI-9974819, ANI-228927, DBI-9724273, TG-MCB070038 (all to Borries Demeler)</p>
+</li>
+<li>
+<p>The National Institutes of Health, Grant NCRR-R01RR022200 (to Borries Demeler)</p>
+</li>
+</ul>
+<h1 id="using-ultrascan-with-the-optima-auc"><span style= "font-size:20px";>Using UltraScan with the Optima AUC</span></h1>
+<p>The Optima AUC from Beckman Coulter allows for the implementation of appropriate workflow validations, instrument diagnostics, and greater automation in the data aquisition and analysis processes.</p>
+<p>Since the Optima can be networked over Ethernet, data aquisition can be accomplished by a computer that is configured with the open source Linux operating system, to utalize a PostgreSQL relational database.
+This database stores experimental data, run profiles, and system status information. Experimental data is stored in 8 byte double percision format, allowing for the full accuracy of the detector to be perserved.
+This is unlike the older Proteomelab instruments, which stored data in ASCII format. Using a binary data system allows for faster input/output, and faster network transfer speeds.</p>
+<p>Additionally, interacting with PostgreSQL allows for:</p>
+<ol>
+<li>
+<p>remote submission of experimental analysis profiles;</p>
+</li>
+<li>
+<p>automatic operation of instruments;</p>
+</li>
+<li>
+<p>remote monitoring;</p>
+</li>
+<li>
+<p>fully automated data transfer to an analysis computer in native format;</p>
+</li>
+<li>
+<p>access to fine-grained, real-time system data with 1 second resolution, featuring the insturments time, rotor force integral, and temperature, and;</p>
+</li>
+<li>
+<p>implementation of audit trails for data access at all levels.</p>
+</li>
+</ol></div>
             </div>
         </div>
 

@@ -34,33 +34,28 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href="https://mstoutjesdyk.github.io/probable-eureka/" class="nav-link">AUC University</a>
-                            </li>
-                            <li class="navitem">
-                                <a href=".." class="nav-link">UltraScan III</a>
+                                <a href=".." class="nav-link">Home</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">General <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../us-overview/" class="dropdown-item">Overview</a>
-</li>
-                                    
-<li>
-    <a href="../us-dialogs/" class="dropdown-item">Common Dialogs</a>
-</li>
-                                    
-<li>
     <a href="../us-faq.md" class="dropdown-item">FAQs</a>
 </li>
+                                    
+<li>
+    <a href="../ultrascan/" class="dropdown-item">Software Info</a>
+</li>
+                                    
+<li>
+    <a href="https://uslims.aucsolutions.com/lims_servers.php" class="dropdown-item">LIMS Database</a>
+</li>
+                                    
+<li>
+    <a href="https://www.ultrascan3.aucsolutions.com/download.php" class="dropdown-item">Download</a>
+</li>
                                 </ul>
-                            </li>
-                            <li class="navitem">
-                                <a href="../gmp-overview/" class="nav-link">UltraScan GMP</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../ultrascan.md" class="nav-link">Software</a>
                             </li>
                             <li class="navitem">
                                 <a href="../us-edit/" class="nav-link">Edit</a>
@@ -196,7 +191,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Multiwavelength <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">MWL <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -283,8 +278,12 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">UltraScan GMP <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">US-GMP <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../gmp-overview/" class="dropdown-item">Overview</a>
+</li>
                                     
 <li>
     <a href="../gmp-experiment/" class="dropdown-item">Experiment</a>
@@ -310,6 +309,26 @@
     <a href="../gmp-report/" class="dropdown-item">Report</a>
 </li>
                                 </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Flowchart <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../sv-flow/" class="dropdown-item">Sedimentation Velocity</a>
+</li>
+                                    
+<li>
+    <a href="../se-flow/" class="dropdown-item">Sedimentation Equilibrium</a>
+</li>
+                                    
+<li>
+    <a href="../mwl-flow/" class="dropdown-item">Multwavelength</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="https://mstoutjesdyk.github.io/probable-eureka/" class="nav-link">AUC University</a>
                             </li>
                         </ul>
 
@@ -362,15 +381,15 @@
 <h1 id="enhanced-van-holde-weischet">Enhanced Van Holde-Weischet</h1>
 <p>The method of Van Holde and Weischet (vHW) is a versitile, model-indepedent approach to determine sedimentation coefficient distributions by graphically analayzing sedimentation velocity experimental data.</p>
 <div class="admonition warning">
-<p><img alt="" src="img/nav-us/us-velocity-evhw.png" /></p>
+<p><img alt="" src="../img/nav-us/us-velocity-evhw.png" /></p>
 </div>
 <p><span class="arithmatex">\(\textbf{Distribution Plot}\)</span> Click here for a plot dialog that will show a vHW distribution plot illustrating sedimentation coefficeint power related to seperate species.</p>
 <div class="admonition warning">
 <p class="admonition-title">van Holde-Weischet Distribution/Histogram Plots</p>
 <p>The following plots show the clusting of data around several sedimention coefficient points, indicating the presence of multiple species in the solution.</p>
-<p><img alt="" src="img/nav-us/us-velocity-vhwdp.png" width="800" /> <br></p>
+<p><img alt="" src="../img/nav-us/us-velocity-vhwdp.png" width="800" /> <br></p>
 <p>This is the distribution plot option. It is plotted as the boundary fraction as a function of the sedimentation coefficient. In this particular plot, we see ~15% of our species at ~2S, and ~45% at ~5.2S.</p>
-<p><img alt="" src="img/nav-us/us-velocity-vhwh.png" width="800" /><br></p>
+<p><img alt="" src="../img/nav-us/us-velocity-vhwh.png" width="800" /><br></p>
 <p>This is the histogram plot option. It is plotted as the relative concentration as a function of the sedimentation coefficient. Again, we see the same data as in the distribution plot. </p>
 <p><span class="arithmatex">\(\textbf{Sensitivity}\)</span> Change the sensitivity factor up or down to affect the nature of the histogram.</p>
 <p><span class="arithmatex">\(\textbf{Smoothing}\)</span> Change the smoothing factor up or down to affect the nature of the envelope.
