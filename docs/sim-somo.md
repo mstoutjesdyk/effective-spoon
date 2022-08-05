@@ -1,1 +1,0 @@
-# SOMO Bead Modeling and Configuration
