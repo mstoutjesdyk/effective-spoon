@@ -10,7 +10,7 @@
     
     For more information, please visit: [http://www.ultrascan.aucsolutions.com/](http://www.ultrascan.aucsolutions.com/)
 
-## UltraScan Software
+## UltraScan Software 
 
 !!! warning ""
 
