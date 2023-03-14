@@ -1,16 +1,4 @@
-!!! danger ""
-
-    The UltraScan-III and LIMS-III software were developed by:
-
-    Emre Brookes, Weiming Cao, Bruce Dubbs, Gary Gorbet, Kip Jay, Jeremy Mann, Suresh Marru, Shabhaz Memon, Marlon Pierce, Alexey Savelyev, Raminder Singh and Dan Zollars.
-
-    Project Director: Borries Demeler
-
-    Other individual contributors to the UltraScan project can be found [here](https://ultrascan.aucsolutions.com/contributors.php).
-    
-    For more information, please visit: [http://www.ultrascan.aucsolutions.com/](http://www.ultrascan.aucsolutions.com/)
-
-## UltraScan Software 
+# UltraScan Software 
 
 !!! warning ""
 
